@@ -1,6 +1,6 @@
 # alarm-clock
 
-You can explore the basic UI of the project here -> (https://akshityadav370.github.io/alarm-clock/ )
+You can explore the basic UI of the project here -> (https://akshityadav370.github.io/alarm-clock-renewed/)
 
 The clock has the following features:
 
