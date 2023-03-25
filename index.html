@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./favicon1.png">
+</head>
+<body>
+
+    <div class="alarm-container">
+
+        <div class="current-time">
+            <img src="clock-image.png" alt="clock">
+            <h1 id="current-time">00:00:00 PM</h1>
+        </div>
+
+        <div class="create-alarm">
+                
+            <div class="form-actions">
+
+                <form>
+
+                    <div class="alarm-inputs">
+                      <input
+                        id="hourInput"
+                        type="number"
+                        name="hour"
+                        placeholder="Hrs"
+                        min="0"
+                        max="12"
+                        required
+                      /><label for="hour">Hours</label>
+                      <input
+                        id="minuteInput"
+                        type="number"
+                        name="min"
+                        min="0"
+                        max="60"
+                        placeholder="Mins"
+                        required
+                      /><label for="min">Minutes</label>
+                      <!-- <input
+                        id="secInput"
+                        type="number"
+                        name="sec"
+                        min="0"
+                        max="60"
+                        placeholder="Secs"
+                        required
+                      /> -->
+                      <!-- <select name="zone" required>
+                        <option value="" selected disabled>Zone</option>
+                        <option value="AM">AM</option>
+                        <option value="PM">PM</option>
+                      </select> -->
+                    </div>
+                    <button id="set">Add Alarm</button>
+
+                </form>
+
+            </div>
+
+         </div>
+
+         <div class="activeAlarms"></div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/8fcf9c8220.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
